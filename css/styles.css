@@ -1,0 +1,21 @@
+html{
+	font-size: 62.5%;
+	box-sizing: border-box;
+}
+*, *::before, *::after{
+	box-sizing: inherit;
+}
+body{
+    font-size: 1.6rem;
+}
+/* estilos generales*/
+.grid{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    justify-content: center;
+    gap: 2rem;
+}
+.grid-item{
+    object-fit: cover;
+}
