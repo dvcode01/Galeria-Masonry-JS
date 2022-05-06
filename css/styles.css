@@ -19,4 +19,9 @@ body{
 .grid-item{
     object-fit: cover;
     border-radius: 12px;
+    margin-bottom: 4rem;
+    cursor: zoom-in;
+}
+.grid-item:hover{
+    filter: opacity(0.9);
 }
