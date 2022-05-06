@@ -21,6 +21,7 @@ body{
     border-radius: 12px;
     margin-bottom: 4rem;
     cursor: zoom-in;
+    background-color: lightgray;
 }
 .grid-item:hover{
     filter: opacity(0.9);
